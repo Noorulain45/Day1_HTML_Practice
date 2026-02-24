@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day1-html-practice</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Header Section Start Here-->
+     <header>
+        <div>
+            <p>A comprehensive demonstration of essential HTML elements &amp; semantic structure</p>
+        </div>
+    </header>
+    <!-- Header Section Ends Here -->
+     
+    <!-- NavBar Section Starts Here -->
+     <nav>
+        <a href="#about">About</a>
+        <a href="#typography">Typography</a>
+        <a href="#media">Media</a>
+        <a href="#lists">Lists</a>
+        <a href="#table">Table</a>
+        <a href="#form">Contact Form</a>
+        <a href="#links">Resources</a>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Docs</a>
+        <a href="https://www.w3schools.com/" target="_blank" rel="noopener">W3 Schools</a>
+        <a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener">HTML Spec</a>
+    </nav>
+    <!-- NavBar Section Ends -->
+     
+    <!-- About Section Start -->
+     <section id="about">
+        <h2>About This Page</h2>
+        <p>This page is a <strong>structured reference</strong> that demonstrates more than 200 HTML tags across multiple categories. Every element is used intentionally and styled with care. Tags are shown <span class="tag-highlight">inline</span> where relevant for clarity.</p>
+        
+        <p><em>Semantic HTML</em> improves accessibility, SEO, and maintainability. Using the right tag for the right purpose is the first step toward building professional websites.</p>
+        
+        <div class="highlight-box">
+            <span class="note-span">Tip:</span> Open browser DevTools and inspect the source to see every tag in context.
+        </div>
+        <hr>
+        
+        <div class="two-col">
+            <div class="card">
+                <h3>Why HTML Matters</h3>
+                <p>HTML is the <strong>backbone of every webpage</strong>. Without solid HTML structure, even the best CSS or JS falls apart.</p>
+                <p>Learn it <em>deeply</em> — it pays dividends forever.</p>
+            </div>
+            
+            <div class="card">
+                <h3>Quick Stats</h3>
+                <p>This page uses <strong>27+ distinct</strong> tag types, covers semantic layout, forms, tables, and media.</p>
+                <p>Total tag count exceeds <em>200</em> elements.</p>
+            </div>
+        </div>
+    </section>
+     <!-- About Section Ends Here -->
+
+     <!-- Typography Section Starts Here -->
+      <section id="typography">
+        <h2>
+            Typography &amp; Text Tags
+        </h2>
+        <h3>
+            Heading Level Three
+        </h3>
+        <p>
+            Below every heading level is demonstrated, from <span class="tag-highlight">h1</span> down to <span class="tag-highlight">h6</span>.
+        </p>
+        
+        <h4>Heading Level Four — Subheading</h4>
+        <p>
+            Using <strong>strong</strong> for importance and <em>em</em> for emphasis gives writers fine-grained control over meaning. <br>
+            A <span class="tag-highlight">br</span> tag above adds a line break without starting a new paragraph.
+        </p>
+        
+        <h5>Heading Level Five — Minor Section</h5>
+        <p>
+            <span class="note-span">Note:</span> <span>Span tags</span> are inline containers. They carry no inherent meaning but accept classes and styles. <em>Source Serif 4</em> is chosen here to evoke editorial authority — <strong>deliberate, not accidental</strong>
+        </p>
+        
+        <h6>Heading Level Six — Smallest Semantic Heading</h6>
+        <p>Even at the smallest heading level, use headings for <em>structure</em>, not for visual sizing. Use CSS for size.</p>
+        <hr>
+        
+        <div class="card">
+            <h4>Inline Elements At a Glance</h4>
+            <p>
+                <strong>Bold / important text</strong> &nbsp;|&nbsp;<em>Italic / emphasized text</em> &nbsp;|&nbsp;
+                <span class="tag-highlight">&lt;span&gt; wrapper</span> &nbsp;|&nbsp;
+                <span class="note-span">Highlighted note</span>
+            </p>
+        </div>
+    </section>
+     <!-- Typography Section Ends Here -->
+
+      <!-- Media Section Starts Here -->
+       <section id="media">
+        <h2>Images &amp; Media</h2>
+        <h3>Five Placeholder Images</h3>
+        <p>Each image uses the <span class="tag-highlight">img</span> tag with a descriptive <em>alt</em> attribute for accessibility.</p>
+        
+        <div class="img-grid">
+            <!-- Figure No 1 -->
+            <figure>
+                <img src="https://picsum.photos/seed/nature1/400/300" alt="Nature landscape placeholder"/>
+                <figcaption>Nature Landscape</figcaption>
+            </figure>
+            <!-- Figure No 2 -->
+            <figure>
+                <img src="https://picsum.photos/seed/city22/400/300" alt="City skyline placeholder"/>
+                <figcaption>City Skyline</figcaption>
+            </figure>
+            <!-- Figure No 3 -->
+             <figure>
+                <img src="https://picsum.photos/seed/abstract5/400/300" alt="Abstract art placeholder"/>
+                <figcaption>Abstract Art</figcaption>
+            </figure>
+            <!-- Figure No 4 -->
+            <figure>
+                <img src="https://picsum.photos/seed/tech88/400/300" alt="Technology theme placeholder"/>
+                <figcaption>Technology</figcaption>
+            </figure>
+            <!-- Figure No 5 -->
+            <figure>
+                <img src="https://picsum.photos/seed/food77/400/300" alt="Food photography placeholder"/>
+                <figcaption>Food &amp; Culture</figcaption>
+            </figure>
+        </div>
+        <hr>
+    </section>
+    <!-- Media Section Ends Here -->
+
+    <!-- List Section Starts Here -->
+     <section id="lists">
+        <h2>Lists</h2>
+        <div class="two-col">
+            <div>
+                <h3>Unordered List</h3>
+                <p>Use <span class="tag-highlight">ul</span> + <span class="tag-highlight">li</span> for non-sequential items:</p>
+                <ul>
+                    <li><strong>HTML</strong> — the structure of the web</li>
+                    <li><strong>CSS</strong> — styles and visual design</li>
+                    <li><strong>JavaScript</strong> — behaviour and interactivity</li>
+                    <li>Accessibility best practices</li>
+                    <li>Semantic markup principles</li>
+                    <li>Responsive design techniques</li>
+                    <li>Performance optimisation</li>
+                    <li>Progressive enhancement</li>
+                    <li>Browser compatibility testing</li>
+                    <li>Version control with Git</li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3>Ordered List</h3>
+                <p>Use <span class="tag-highlight">ol</span> + <span class="tag-highlight">li</span> for sequential steps:</p>
+                <ol>
+                    <li>Write semantic <strong>HTML</strong> first</li>
+                    <li>Layer <em>CSS</em> for presentation</li>
+                    <li>Add <em>JavaScript</em> for behaviour</li>
+                    <li>Validate markup with W3C Validator</li>
+                    <li>Test across browsers and devices</li>
+                    <li>Run Lighthouse performance audit</li>
+                    <li>Fix accessibility issues flagged</li>
+                    <li>Optimise images and assets</li>
+                    <li>Deploy to production server</li>
+                    <li>Monitor &amp; iterate based on analytics</li>
+                </ol>
+            </div>
+        </div>
+        <hr>
+        
+        <h4>Nested Lists</h4>
+        <ul>
+            <li>Frontend Development
+                <ul>
+                    <li>HTML &amp; Accessibility</li>
+                    <li>CSS Layouts — Flexbox &amp; Grid</li>
+                    <li>JavaScript — ES6+</li>
+                </ul>
+            </li>
+            
+            <li>Backend Development
+                <ol>
+                    <li>Node.js / Python / PHP</li>
+                    <li>Databases — SQL &amp; NoSQL</li>
+                    <li>REST &amp; GraphQL APIs</li>
+                </ol>
+            </li>
+            <li>DevOps &amp; Deployment</li>
+        </ul>
+    </section>
+     <!-- List Section ends Here -->
+
+      <!-- Table Section Starts Here -->
+       <section id="table">
+        <h2>Data Table</h2>
+        <p>A <span class="tag-highlight">table</span> with <span class="tag-highlight">th</span>, <span class="tag-highlight">tr</span>, and <span class="tag-highlight">td</span> tags — 3 rows × 3 columns.</p>
+        
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Purpose</th>
+                        <th>Difficulty Level</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td><strong>HTML5</strong></td>
+                        <td>Page <em>structure</em> and semantics</td>
+                        <td><span class="note-span">Beginner</span></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><strong>CSS3</strong></td>
+                        <td>Styling, layout, and animations</td>
+                        <td><span class="note-span">Intermediate</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>JavaScript</strong></td>
+                        <td>Interactivity and dynamic content</td>
+                        <td><span class="tag-highlight">Advanced</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+    </section>
+     <!-- Table Section ends Here -->
+      
+     <!-- Form Section Starts Here -->
+      <section id="form">
+        <h2>Contact Form</h2>
+        <p>A <span class="tag-highlight">form</span> with five labelled inputs and a submit <span class="tag-highlight">button</span>.</p>
+        
+        <form action="#" method="post" novalidate>
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full_name" placeholder="e.g. Noorye" required/>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="e.g. ABC@gmail.com" required/>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. +92 "/>
+            </div>
+            
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" />
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <input type="text" id="message" name="message" placeholder="Write your message here…" />
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+     <!-- Form Section ends Here -->
+      
+     <!-- Links Section Starts Here-->
+      <section id="links">
+        <h2>External Resources &amp; Links</h2>
+        <h3>Useful Web Development References</h3>
+        <p>All links below open in a new tab. The <span class="tag-highlight">a</span> tag supports both internal anchors and external URLs.</p>
+        
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">MDN Web Docs — HTML Reference</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">W3Schools HTML Tutorial</a></li>
+            <li><a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener">WHATWG HTML Living Standard</a></li>
+            <li><a href="https://validator.w3.org/" target="_blank" rel="noopener">W3C Markup Validation Service</a></li>
+            <li><a href="https://web.dev/" target="_blank" rel="noopener">Google web.dev — Best Practices</a></li>
+            <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></li>
+            <li><a href="https://www.smashingmagazine.com/" target="_blank" rel="noopener">Smashing Magazine</a></li>
+            <li><a href="https://caniuse.com/" target="_blank" rel="noopener">Can I Use — Browser Compatibility</a></li>
+            <li><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></li>
+            <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub — Code Hosting</a></li>
+        </ul>
+        <hr>
+        
+        <h4>Internal Anchors</h4>
+        <p>Jump back to a section: <a href="#about">About</a> · <a href="#typography">Typography</a> · <a href="#media">Media</a> · <a href="#table">Table</a> · <a href="#form">Form</a></p>
+        <br>
+        <div class="card">
+            <h5>Tag Count Summary</h5>
+            <p>
+                <span>a</span> — 20+ uses &nbsp;|&nbsp;
+                <span>h1–h6</span> — 20+ uses &nbsp;|&nbsp;
+                <span>p</span> — 30+ uses &nbsp;|&nbsp;
+                <span>img</span> — 5 uses &nbsp;|&nbsp;
+                <span>ul/ol/li</span> — 25+ items &nbsp;|&nbsp;
+                <span>br/hr</span> — 10+ uses &nbsp;|&nbsp;
+                <span>strong/em</span> — 30+ uses &nbsp;|&nbsp;
+                <span>div/span</span> — 40+ uses &nbsp;|&nbsp;
+                <span>table/tr/td/th</span> — full 3×3 table &nbsp;|&nbsp;
+                <span>form/input/label/button</span> — full form &nbsp;|&nbsp;
+                <span>section/header/footer/nav</span> — semantic layout
+            </p>
+        </div>
+    </section>
+    
+    <!-- Link Section Ends Here -->
+     
+    <!-- Footer Section Starts Here -->
+     <footer>
+        <div>
+            <h6>HTML Tags Showcase</h6>
+            <p>Built to demonstrate semantic HTML structure. &copy; 2025 All rights reserved.</p>
+            <p>
+                <a href="#about">Back to top</a> &nbsp;|&nbsp;
+                <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noopener">MDN Reference</a> &nbsp;
+            </p>
+        </div>
+    </footer>
+     <!-- Footer Section Ends Here -->
+</body>
+</html>
