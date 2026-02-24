@@ -1,7 +1,7 @@
 # Day 1 HTML Practice
 A beginner project demonstrating essential HTML elements and semantic structure.
 Viw Demo here:
-[Live Demo](day1htmlpractice.netlify.app)
+[Live Demo]( day1htmlpractice.netlify.app )
 
 Topics Covered
 - Semantic HTML structure (header, nav, section, footer)
